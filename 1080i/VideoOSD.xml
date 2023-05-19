@@ -80,7 +80,7 @@
 						<visible>!Pvr.IsPlayingTv</visible>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>2-col</width>
+                        <width>3-col</width>
                         <font>itemSubTitle</font>
                         <textcolor>highlight</textcolor>
                         <label>[B]$LOCALIZE[31143][/B]</label>

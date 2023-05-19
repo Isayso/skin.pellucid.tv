@@ -84,13 +84,13 @@
         <font>
             <name>smallStrong</name>
             <filename>roboto/bold.ttf</filename>
-            <size>22</size>
+            <size>30</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>
             <name>smallMedium</name>
             <filename>roboto/bold.ttf</filename>
-            <size>24</size>
+            <size>30</size>
             <linespacing>1.0</linespacing>
         </font>
         <!--element specific-->
@@ -115,7 +115,7 @@
 		<font>
             <name>sectionTitle</name>
             <filename>roboto_slab/bold.ttf</filename>
-            <size>36</size>
+            <size>42</size>
             <linespacing>1.0</linespacing>
 			<style>capitalize</style>
         </font>
@@ -128,7 +128,7 @@
         <font>
             <name>dialogTitle</name>
             <filename>roboto_slab/bold.ttf</filename>
-            <size>32</size>
+            <size>36</size>
             <linespacing>1.0</linespacing>
             <style>capitalize</style>
         </font>
@@ -152,6 +152,12 @@
             <linespacing>0.8</linespacing>
         </font>
 		<font>
+            <name>largeHome</name>
+            <filename>roboto_slab/regular.ttf</filename>
+            <size>66</size>
+            <linespacing>0.7</linespacing>
+        </font>
+		<font>
             <name>mediumTitle</name>
             <filename>roboto_slab/bold.ttf</filename>
             <size>44</size>
@@ -160,25 +166,25 @@
         <font>
             <name>itemTitle</name>
             <filename>roboto/bold.ttf</filename>
-            <size>30</size>
+            <size>40</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>
             <name>itemSubTitle</name>
             <filename>roboto/bold.ttf</filename>
-            <size>24</size>
+            <size>28</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>
             <name>playlistSubTitle</name>
             <filename>roboto/bold.ttf</filename>
-            <size>24</size>
+            <size>28</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>
             <name>itemSubTitleCondensed</name>
             <filename>roboto/condensedBold.ttf</filename>
-            <size>26</size>
+            <size>28</size>
             <linespacing>0.8</linespacing>
         </font>
         <font>
@@ -202,7 +208,7 @@
         <font>
             <name>buttonTitle</name>
             <filename>roboto/medium.ttf</filename>
-            <size>28</size>
+            <size>38</size>
             <linespacing>1.0</linespacing>
         </font>
 		<font>
@@ -214,13 +220,13 @@
 		<font>
             <name>settingsCategory</name>
             <filename>roboto_slab/bold.ttf</filename>
-            <size>30</size>
+            <size>38</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>
             <name>settingsCategoryTitle</name>
             <filename>roboto/black.ttf</filename>
-            <size>22</size>
+            <size>30</size>
             <linespacing>1.0</linespacing>
         </font>
         <font>

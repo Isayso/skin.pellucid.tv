@@ -1,6 +1,6 @@
 **Changelog**
-[V3.1.0]
-- Skin shortcuts removed
+[V3.0.1]
+- larger UI for 50 inch TV
 
 [V3.0.0]
 - Updated for Kodi Matrix

@@ -2,6 +2,7 @@
 <window id="0">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<include>fadeInOut</include>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9001&amp;group=mainmenu|videosubmenu|musicsubmenu|picturessubmenu|gamesubmenu)</onload>
 	<onload condition="Skin.hassetting(stopVideoOnMenu) + !Player.HasAudio">PlayerControl(stop)</onload>
 	<onload>AlarmClock(hidemenu,setfocus(9999),00:20,true)</onload>
 	<onunload>CancelAlarm(hidemenu,true)</onunload>
@@ -147,31 +148,35 @@
 				<animation type="conditional" condition="control.hasfocus(9999)" reversible="true">
 					<effect type="fade" start="100" end="0" time="500" delay="0"/>
 				</animation>
-				<posx>col-5-begin</posx>
+				<posx>col-3-begin</posx>
 				<animation condition="string.isEqual(Container(9000).NumItems,1)" effect="slide" end="432,0" time="0">conditional</animation>
 				<animation condition="string.isEqual(Container(9000).NumItems,2)" effect="slide" end="288,0" time="0">conditional</animation>
 				<animation condition="string.isEqual(Container(9000).NumItems,3)" effect="slide" end="144,0" time="0">conditional</animation>			
 				<posy>row-12-begin</posy>
-				<width>18-col</width>
-				<height>12-row</height>
+				<width>22-col</width>
+				<height>16-row</height>
 				<ondown>setfocus(9001,1)</ondown>
 				<orientation>vertical</orientation>
-				<itemlayout width="4-col" height="3-row">
+				<itemlayout width="5-col" height="4-row">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>4-col-textbox</width>
-						<height>105</height>
+						<width>5-col-textbox</width>
+						<height>4-row</height>
+						<!--<height>105</height>-->
 						<texture>colors/black.png</texture>
 						<colordiffuse>77000000</colordiffuse>
 						<aspectratio>stretch</aspectratio>
 					</control>
 					<control type="textbox">
-						<posx>12</posx>
+						<posx>0</posx>
+						<!--<posx>12</posx>-->
 						<posy>0</posy>
-						<width>252</width>
-						<height>3-row</height>
-						<font>dialogTitle</font>
+						<width>5-col-textbox</width>
+						<!--<width>252</width>-->
+						<height>4-row</height>
+						<font>largeHome</font>
+						<!--<font>dialogTitle</font>-->
 						<wrapmultiline>true</wrapmultiline>
 						<aligny>center</aligny>
 						<align>center</align>
@@ -180,22 +185,26 @@
 						<label>[CAPITALIZE]$INFO[ListItem.label][/CAPITALIZE]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout width="4-col" height="3-row">
+				<focusedlayout width="5-col" height="4-row">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>4-col-textbox</width>
-						<height>105</height>
+						<width>5-col-textbox</width>
+						<height>4-row</height>
+						<!--<height>105</height>-->
 						<texture>colors/white.png</texture>
 						<colordiffuse>highlight</colordiffuse>
 						<aspectratio>stretch</aspectratio>
 					</control>
 					<control type="textbox">
-						<posx>12</posx>
+						<posx>0</posx>
+						<!--<posx>12</posx>-->
 						<posy>0</posy>
-						<width>252</width>
-						<height>3-row</height>
-						<font>dialogTitle</font>
+						<width>5-col-textbox</width>
+						<!--<width>252</width>-->
+						<height>4-row</height>
+						<font>largeHome</font>
+						<!--<font>dialogTitle</font>-->
 						<wrapmultiline>true</wrapmultiline>
 						<aligny>center</aligny>
 						<align>center</align>
@@ -205,7 +214,7 @@
 					</control>
 				</focusedlayout>
 				<content>
-					<include>menus-mainmenu</include>
+					<include>skinshortcuts-mainmenu</include>
 				</content>
 			</control>
 			<!--power / settings-->

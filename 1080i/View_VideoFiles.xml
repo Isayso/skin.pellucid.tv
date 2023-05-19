@@ -23,10 +23,10 @@
             <ondown>55</ondown>
             <onup>55</onup>
             <pagecontrol>61</pagecontrol>
-            <itemlayout width="24-col" height="2-row">
+            <itemlayout width="24-col" height="3-row">
                 <control type="image">
                     <posx>0</posx>
-                    <posy>3</posy>
+                    <posy>20</posy>
                     <width>66</width>
                     <height>66</height>
                     <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -46,7 +46,7 @@
                     <posx>1-col-indent</posx>
                     <posy>0</posy>
                     <width>22-col-gutter</width>
-                    <height>2-row</height>
+                    <height>3-row</height>
                     <aligny>center</aligny>
                     <font>itemTitle</font>
                     <textcolor>textActive</textcolor>
@@ -58,7 +58,7 @@
                     <posx>23-col-gutter</posx>
                     <posy>0</posy>
                     <width>1-col</width>
-                    <height>2-row</height>
+                    <height>3-row</height>
                     <aligny>center</aligny>
                     <align>right</align>
                     <font>symbolLarge</font>
@@ -67,10 +67,10 @@
                     <label></label>
                 </control>
             </itemlayout>
-            <focusedlayout width="24-col" height="2-row">
+            <focusedlayout width="24-col" height="3-row">
                 <control type="image">
                     <posx>0</posx>
-                    <posy>3</posy>
+                    <posy>20</posy>
                     <width>66</width>
                     <height>66</height>
                     <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -84,7 +84,7 @@
                     <posx>1-col</posx>
                     <posy>0</posy>
                     <width>23-col</width>
-                    <height>2-row</height>
+                    <height>3-row</height>
                     <aspectratio>stretch</aspectratio>
                     <texture border="0">colors/white.png</texture>
                     <colordiffuse>highlight</colordiffuse>
@@ -93,7 +93,7 @@
                     <posx>1-col-indent</posx>
                     <posy>0</posy>
                     <width>22-col-gutter</width>
-                    <height>2-row</height>
+                    <height>3-row</height>
                     <aligny>center</aligny>
                     <font>itemTitle</font>
                     <textcolor>textActive</textcolor>
@@ -105,7 +105,7 @@
                     <posx>23-col-gutter</posx>
                     <posy>0</posy>
                     <width>1-col</width>
-                    <height>2-row</height>
+                    <height>3-row</height>
                     <aligny>center</aligny>
                     <align>right</align>
                     <font>symbolLarge</font>

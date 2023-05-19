@@ -18,7 +18,7 @@
         </control>
         <!--Settings category-->
         <control type="group" id="9001">
-            <posx>col-4-begin</posx>
+            <posx>col-1-begin</posx>
             <posy>row-5-begin</posy>
             <!--animations-->
             <include>modalDialogInOutVertical</include>
@@ -34,7 +34,7 @@
             <control type="image">
                 <posx>0</posx>
                 <posy>0</posy>
-                <width>18-col</width>
+                <width>24-col</width>
                 <height>2-row</height>
                 <texture>colors/white.png</texture>
                 <colordiffuse>highlight</colordiffuse>
@@ -80,9 +80,9 @@
             </control>
             <!--options-->
             <control type="grouplist" id="5">
-                <posx>4-col</posx>
+                <posx>5-col</posx>
                 <posy>84</posy>
-                <width>14-col</width>
+                <width>18-col</width>
                 <height>606</height>
                 <onleft>3</onleft>
                 <onright>3</onright>
